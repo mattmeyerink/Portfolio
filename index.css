@@ -1,0 +1,62 @@
+body {
+    background-color: #DCDCDC;
+    font: arial;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.header {
+    background-color: white;
+    margin: 0;
+}
+.header > h1 {
+    text-align: center;
+    padding: 35px;
+    font-size: 50px;
+}
+.nav_bar {
+    padding: 20px;
+    background-color: black;
+}
+.nav_bar > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav_bar > a:hover {
+    background-color: grey;
+}
+.left_column {
+    float: left;
+}
+.right_column {
+    float: right;
+}
+.me {
+    background-color: white;
+    margin: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.my_interests {
+    background-color: white;
+    margin: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.left_column > h1 {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+}
+.life_journey {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px;
+}
