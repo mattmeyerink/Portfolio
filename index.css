@@ -24,12 +24,6 @@ body {
 .nav_bar > a:hover {
     background-color: grey;
 }
-.left_column {
-    float: left;
-}
-.right_column {
-    float: right;
-}
 .me {
     background-color: white;
     margin: 25px;
