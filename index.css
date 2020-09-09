@@ -24,6 +24,11 @@ body {
 .nav_bar > a:hover {
     background-color: grey;
 }
+.homepage {
+    background-color: white;
+    margin: 5%;
+    padding: 100px;
+}
 .me {
     background-color: white;
     margin: 25px;
