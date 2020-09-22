@@ -25,18 +25,36 @@ body {
     background-color: grey;
 }
 .homepage {
-    background-color: white;
-    margin: 5%;
-    padding: 100px;
+    background-image: url("images/home_page_bg.jpeg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #12343B; 
+    padding: 2%;
 }
-.homepage > a {
-    background-color: black;
+.homepage_text {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+    color: #E1B382;
+    text-shadow: 2px 2px #12343B;
+    font-size: 20px;
+}
+.homepage_text > h1 {
+    color: white;
+    font-size: 60px;
+    text-shadow: 5px 5px #12343B;
+}
+.homepage_text > a {
+    align-items: center;
+    background-color: #2D545E;
     color: white;
     text-decoration: none;
     padding: 10px;
 }
-.homepage > a:hover {
-    background-color: grey;
+.homepage_text > a:hover {
+    background-color: #C89666;
+    text-decoration: none;
 }
 .me {
     background-color: white;
