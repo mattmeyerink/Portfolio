@@ -159,15 +159,18 @@ body {
     height: 400px;
     width: 300px;
     border: 5px outset white;
+    vertical-align: middle;
 }
 .skill_list > h3 {
     text-align: center;
     color: #12343B;
     font-size: 20px;
     text-shadow: 1px 1px white;
+    text-decoration: underline;
 }
 .skill_list > ul {
     line-height: 2;
     list-style-type: square;
     text-shadow: 2px 2px #12343B;
+    vertical-align: middle;
 }
