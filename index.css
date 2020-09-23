@@ -85,11 +85,13 @@ body {
 }
 .life_journey {
     background-color: #C89666;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 50px;
+    margin: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 .life_journey > h3 {
@@ -112,9 +114,9 @@ body {
 .life_journey > p {
     font-size: 18px;
     color: #12343B;
-    text-rendering: optimizeSpeed;
     padding-left: 10px;
     padding-right: 10px;
+    line-height: 1.25;
 }
 .my_projects {
     background-color: white;
@@ -127,11 +129,45 @@ body {
 .my_projects_header {
     text-align: center;
 }
-.about_me {
-    background-color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.about_me_header {
+    background-color: #2D545E;
     margin: 25px;
+    border: 5px outset white;
+}
+.about_me_header > img {
+    float: left;
+    border-radius: 50%;
+    margin: 25px;
+}
+.about_me_header_words {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.about_me_header_words > h1 {
+    text-shadow: 2px 2px #E1B382;
+    font-size: 40px;
+}
+.about_me_header_words > p {
+    line-height: 1.5;
+}
+.skill_list {
+    float: left;
+    margin: 25px;
+    background-color: #C89666;
+    color: white;
+    height: 400px;
+    width: 300px;
+    border: 5px outset white;
+}
+.skill_list > h3 {
+    text-align: center;
+    color: #12343B;
+    font-size: 20px;
+    text-shadow: 1px 1px white;
+}
+.skill_list > ul {
+    line-height: 2;
+    list-style-type: square;
+    text-shadow: 2px 2px #12343B;
 }
