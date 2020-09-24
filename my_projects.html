@@ -93,7 +93,66 @@
 
             <a href="https://github.com/mattmeyerink/Hangman">Github Repository</a>
         </div>
+
+        <hr />
         
-        
+        <form class="opinion_form">
+            <h3>Let me know what you think!</h3>
+            
+            <label for="favorite_project">What was your favorite project?</label>
+            <br/>
+            <select name="favorite_project" id="favorite_project">
+                <option value="menu_generator">Dinner Schedule Generator</option>
+                <option value="harry_potter_adventure">Harry Potter Adventure Game</option>
+                <option value="harry_potter_hangman">Harry Potter Hangman</option>
+            </select>
+
+            <br/>
+            <br/>
+
+            <label for="project_review">Why was this your favorite project?</label>
+            <br/>
+            <textarea id="project_review" rows="5" cols="50">Enter response here</textarea>
+
+            <br/>
+            <br/>
+
+            <label for="project_improvement">What is one thing I should imporve in a published project?</label>
+            <br/>
+            <textarea id="project_improvement" rows="5" cols="50">Enter response here</textarea>
+
+            <br/>
+            <br/>
+
+            <label for="next_project">What should my next project be?</label>
+            <br/>
+            <input type="radio" id="web_app" name="next_project" value="web_app">
+            <label for="web_app">Web Application</label><br/>
+            <input type="radio" id="mobile_app" name="next_project" value="mobile_app">
+            <label for="mobile_app">Mobile Application</label><br/>
+            <input type="radio" id="desktop_app" name="next_project" value="desktop_app">
+            <label for="desktop_app">Desktop Application</label></br>
+            <input type="radio" id="other" name="next_project" value="other">
+            <label for="other">Other</label>
+
+            <br/>
+            <br/>
+
+            <label for="technology_idea">What language/framework should I incorporate in my next project?</label>
+            <br/>
+            <textarea id="technology_idea" rows="1" cols="25">Technology/Framework</textarea>
+            
+            <br/>
+            <br/>
+
+            <label for="developer_improvement">What is one thing that I can imporve in my code?</label>
+            <br/>
+            <textarea for="developer_improvement" rows="5" cols="50">Enter response here</textarea>
+            
+            <br/>
+            <br/>
+
+            <button type="submit" value="Submit">Submit</button>
+        </form>
     </body>
 </html>

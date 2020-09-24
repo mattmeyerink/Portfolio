@@ -174,3 +174,7 @@ body {
     text-shadow: 2px 2px #12343B;
     vertical-align: middle;
 }
+.opinion_form {
+    color: white;
+    margin: 25px;
+}
