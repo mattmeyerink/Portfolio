@@ -1,5 +1,6 @@
 body {
-    background-color: #12343B;
+    background: rgb(45,84,94);
+    background: linear-gradient(90deg, rgba(45,84,94,1) 0%, rgba(225,179,130,1) 100%);
     font: arial;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -31,17 +32,9 @@ body {
 .nav_bar > a:hover {
     background-color: #2D545E;
 }
-.homepage {
-    background-image: url("images/home_page_bg.jpeg");
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #12343B; 
-    padding: 2%;
-}
 .homepage_text {
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     text-align: center;
     color: #E1B382;
     text-shadow: 2px 2px #12343B;
